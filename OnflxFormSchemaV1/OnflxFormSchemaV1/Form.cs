@@ -39,7 +39,8 @@ namespace OnflxFormSchemaV1
         public string formVersion;
         public string responseId;
         public List<Section> sections;
-        
+        public List<FormCustomDataItem> formCustomData;
+
         public Form(string pCustomerInstance, string pFormId, string pFormVersion, string pResponseId, string pSchemaVersion)
         {
             formSchemaVersion = pSchemaVersion;
@@ -48,6 +49,7 @@ namespace OnflxFormSchemaV1
             formVersion = pFormVersion;
             responseId = pResponseId;
             sections = new List<Section>();
+            formCustomData = new List<FormCustomDataItem>();
         }
     }
 }

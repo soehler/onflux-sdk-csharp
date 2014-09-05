@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCustomDataItem.cs" />
     <Compile Include="ClientField.cs" />
     <Compile Include="DateField.cs" />
     <Compile Include="DateIntervalField.cs" />

@@ -19,11 +19,16 @@ namespace DemonstracaoOnfluxSchema
             //Deserializa JSon para classe .Net
             Form form = JsonConvert.DeserializeObject<Form>(jsonString, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Auto, MetadataPropertyHandling = MetadataPropertyHandling.ReadAhead});
 
+            //Add some custom data for testing
+            form.formCustomData.Add(new FormCustomDataItem("CustomDataExample", "123456"));
+
+            
             //Exibe campos para mostrar que funcionou
             Console.WriteLine("Id do Formulário: " + form.formId);
             Console.WriteLine("Versão do schema: " + form.formSchemaVersion);
             Console.WriteLine("Versão do Formulário: " + form.formVersion);
             Console.WriteLine("Quantidade de campos: " + form.sections[0].fields.Count);
+            Console.WriteLine("CustomDataExample: " + form.formCustomData[0].value);
             Console.WriteLine("Breakpoint aqui, para não fechar a nanela DOS na IDE"); 
         }
     }
