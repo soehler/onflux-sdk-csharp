@@ -32,34 +32,31 @@ using Newtonsoft.Json;
 
 namespace OnflxFormSchemaV1
 {
-    namespace OnflxFormSchemaV1
+    public class DateField
     {
-        public class DateField
-        {
-            [JsonProperty(PropertyName = "$type")]
-            public string doNetObjectType;
-            public string jacksonObjectType;
-            public string dateValue;
+        [JsonProperty(PropertyName = "$type")]
+        public string doNetObjectType;
+        public string jacksonObjectType;
+        public string dateValue;
             
-            public DateField(string pValue)
-            {
-                /*
-                 * This is required do deserialization using Newtonsoft.Json v6.0.3 or later
-                 * on .Net Framework 
-                 */
-                doNetObjectType = this.GetType().Namespace + "." + this.GetType().Name + "," + System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
-                /*
-                 * This is required do deserialization using Jackson JSon 
-                 * on Java 1.7 or greater  
-                 */
-                jacksonObjectType = this.GetType().Name;
+        public DateField(string pValue)
+        {
+            /*
+                * This is required do deserialization using Newtonsoft.Json v6.0.3 or later
+                * on .Net Framework 
+                */
+            doNetObjectType = this.GetType().Namespace + "." + this.GetType().Name + "," + System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+            /*
+                * This is required do deserialization using Jackson JSon 
+                * on Java 1.7 or greater  
+                */
+            jacksonObjectType = this.GetType().Name;
 
-                /*
-                 * This is(are) object properties 
-                 */
+            /*
+                * This is(are) object properties 
+                */
 
-                dateValue = pValue;
-            }
+            dateValue = pValue;
         }
     }
 }
