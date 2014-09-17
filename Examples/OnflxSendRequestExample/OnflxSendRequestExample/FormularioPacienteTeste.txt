@@ -1,0 +1,612 @@
+﻿{
+  "formSchemaVersion": "1",
+  "customerInstance": "20",
+  "formId": "376",
+  "formVersion": "84",
+  "responseId": "12345a0d701d496697882dfbd5369999",
+  "sections": [
+    {
+      "sectionId": "1",
+      "dateCreated": "05/09/2014T20:32:26.0000000",
+      "elapsedTime": 0,
+      "creator": "GERACAO AUTOMATICA AZIMUTE",
+      "senderDescription": "Onflux-Android",
+      "senderPlatform": "Android V. 4.2.2",
+      "fields": [
+        {
+          "fieldId": "1",
+          "type": "TextField",
+          "format": null,
+          "data": [
+            {
+              "text": "TESTE DE PACIENTE"
+            }
+          ]
+        },
+        {
+          "fieldId": "15",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "2",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "3",
+          "type": "DateField",
+          "format": "dd/MM/yyyy",
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "4",
+          "type": "TextField",
+          "format": null,
+          "data": [
+            {
+              "text": "ENDERECO DO PACIENTE"
+            }
+          ]
+        },
+        {
+          "fieldId": "5",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "6",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "7",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "8",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "9",
+          "type": "TableField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "10",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "11",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "012",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "013",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "14",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "16",
+          "type": "DateField",
+          "format": "dd/MM/yyyy",
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "17",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "018",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "19",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "20",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "21",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "22",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "23",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "24",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "25",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "26",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "27",
+          "type": "TableField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "28",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "29",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "30",
+          "type": "FormulaField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "34",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "35",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "31",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "32",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "33",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "40",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "37",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "38",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "39",
+          "type": "FormulaField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "083",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "41",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "42",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "43",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "44",
+          "type": "FormulaField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "36",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "045",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "46",
+          "type": "DateField",
+          "format": "dd/MM/yyyy",
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "47",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "48",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "49",
+          "type": "TableField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "50",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "51",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+           ]
+        },
+        {
+          "fieldId": "052",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "53",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "054",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "055",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "056",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "57",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+           ]
+        },
+        {
+          "fieldId": "58",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "059",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "60",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "61",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "062",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "63",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "064",
+          "type": "ImageField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "65",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "66",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "67",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "68",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "69",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+            {
+              "selected": "0"
+            }
+          ]
+        },
+        {
+          "fieldId": "70",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "71",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "82",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "72",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "73",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "74",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "75",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "76",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "77",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "78",
+          "type": "NumericField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "079",
+          "type": "SelectionField",
+          "format": null,
+          "data": [
+          ]
+        },
+        {
+          "fieldId": "80",
+          "type": "TextField",
+          "format": null,
+          "data": [
+          ]
+        }
+      ]
+    }
+  ],
+  "formCustomData": [
+		{
+		  "key": "codigoReferencia",
+		  "value": "5487"
+		},
+		{
+		  "key": "emailAlternativo",
+		  "value": "teste@teste.com.br"
+		}
+    ]
+}
