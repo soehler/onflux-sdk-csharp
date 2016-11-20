@@ -38,9 +38,9 @@ namespace OnflxFormSchemaV1
         [JsonProperty(PropertyName = "$type")]
         public string doNetObjectType;
         public string jacksonObjectType;    
-        public double startNumber;
-        public double endNumber;
-        public NumericIntervalField(double pStartNumber, double pEndNumber)
+        public decimal startNumber;
+        public decimal endNumber;
+        public NumericIntervalField(decimal pStartNumber, decimal pEndNumber)
         {
             /*
              * This is required do deserialization using Newtonsoft.Json v6.0.3 or later
